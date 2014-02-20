@@ -1,25 +1,10 @@
 {
-  "name": "simplify",
-  "version": "1.0.0",
+  "name": "microjs-simplify",
   "description": "simplify is a high-performance JavaScript polyline simplification library",
-  "main": "index.js",
-  "scripts": {
-    "test": "component-install && component-build -s b && mocha -R spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/microjs/simplify.git"
-  },
-  "author": "",
-  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [],
   "dependencies": {
-    "simplify-2d": "*",
-    "simplify-3d": "*"
-  },
-  "devDependencies": {
-    "mocha": "~1.7.1",
-    "expect.js": "~0.2.0",
-    "component": "*"
-  },
-  "private": true
+    "microjs-simplify-2D": "git://github.com/npmcomponent/microjs-simplify-2D.git",
+    "microjs-simplify-3D": "git://github.com/npmcomponent/microjs-simplify-3D.git"
+  }
 }
